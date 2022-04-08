@@ -5,7 +5,7 @@
 $ yarn install
 ```
 
-## Sign Up  WeatherMapApi
+## Get WeatherMapApi Key
 https://openweathermap.org/api
 ## Create environment
 Environment file example.
@@ -55,26 +55,4 @@ Jest config
     "verbose": true,
     "collectCoverage": true
   },
-```
-## MySql
-https://www.mysql.com/
-```
-$ mysql
-```
-
-### Set the MySQL user password 
-```
-mysql> ALTER USER 'user-name'@'localhost' IDENTIFIED BY 'NEW_USER_PASSWORD';
-```
-
-### Creating and Selecting a Database
-
-#### Creating
-```
-mysql> CREATE DATABASE menagerie;
-```
-
-#### Selecting
-```
-mysql> USE menagerie;
 ```
