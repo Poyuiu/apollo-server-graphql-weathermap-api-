@@ -4,5 +4,4 @@ type CountryWeather {
   message: String
   cod: String
   count: Int
-  list: [List]
 }
